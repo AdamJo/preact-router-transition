@@ -1,0 +1,46 @@
+.app {
+	width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content {
+	background: tomato;
+
+	display: flex;
+	justify-content: center;
+
+	
+	flex-grow: 1;
+	width: 100%;
+}
+
+.wrapper {
+	background: pink;
+	width: 80%;
+	min-width: 350px;
+	min-height: 550px;
+	margin: 20px 0;
+}
+
+.enter {
+  opacity: 0.01;
+  transition: opacity 1s ease-in;
+}
+
+.enter.enterActive {
+  opacity: 1;
+}
+
+.leave {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.leave.leaveActive {
+  opacity: 0.01;
+}

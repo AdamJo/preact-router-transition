@@ -1,0 +1,29 @@
+html, body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #FDE8D5;
+  margin: 0;
+
+  font-size: 20px;
+}
+
+:global {
+  .example-enter {
+    opacity: 0.01;
+    transition: opacity 1s ease-in;
+  }
+
+  .example-enter.example-enter-active {
+    opacity: 1;
+  }
+
+  .example-leave {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+  }
+
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+  }
+}
