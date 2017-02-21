@@ -8,7 +8,6 @@ import Resources from './components/resources';
 
 import Content from './containers/content';
 
-import CSSTransitionGroup from 'preact-css-transition-group';
 import './global-style';
 import './style.css';
 
